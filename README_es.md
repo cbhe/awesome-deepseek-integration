@@ -17,24 +17,28 @@ Integra la API de DeepSeek en softwares populares. Accede a la [Plataforma Abier
 
 ## Tabla de contenidos
 
-* [Aplicaciones](#applications)
-* [Marcos de agentes de IA](#agent)
-* [Marcos de aplicaciones de datos de IA](#data)
-* [Marcos RAG](#rag)
-* [Marcos FHE (Cifrado Homomórfico Completo)](#fhe)
-* [Marcos Solana](#solana)
-* [Curación de datos sintéticos](#sythetic)
-* [Plugins de aplicaciones de mensajería instantánea](#im)
-* [Extensiones para Navegadores](#browser)
-* [Extensiones para VS Code](#vscode)
-* [Extensiones de Visual Studio](#vs)
-* [Extensiones de Neovim](#neovim)
-* [Extensiones de JetBrains](#jetbrains)
-* [Bots de Discord](#discord)
-* [Editor de Código Nativo con IA](#codeeditor)
-* [Emacs](#emacs)
-* [Seguridad](#security)
-* [Otros](#others)
+- [Integraciones Asombrosas de DeepSeek ](#integraciones-asombrosas-de-deepseek-)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Lista de proyectos](#lista-de-proyectos)
+    - [Aplicaciones](#aplicaciones)
+    - [Marcos de agentes de IA](#marcos-de-agentes-de-ia)
+    - [Marcos de aplicaciones de datos de IA](#marcos-de-aplicaciones-de-datos-de-ia)
+    - [Marcos RAG](#marcos-rag)
+    - [Marcos FHE (Cifrado Homomórfico Completo)](#marcos-fhe-cifrado-homomórfico-completo)
+    - [Marcos Solana](#marcos-solana)
+    - [Curación de datos sintéticos](#curación-de-datos-sintéticos)
+    - [Plugins de aplicaciones de mensajería instantánea](#plugins-de-aplicaciones-de-mensajería-instantánea)
+    - [Extensiones para Navegadores](#extensiones-para-navegadores)
+    - [Extensiones para VS Code](#extensiones-para-vs-code)
+    - [Extensiones de Visual Studio](#extensiones-de-visual-studio)
+    - [Extensiones de Neovim](#extensiones-de-neovim)
+    - [Extensiones de JetBrains](#extensiones-de-jetbrains)
+    - [Bots de Discord](#bots-de-discord)
+    - [Editor de Código Nativo con IA](#editor-de-código-nativo-con-ia)
+    - [Emacs](#emacs)
+    - [Seguridad](#seguridad)
+    - [Otros](#otros)
+    - [Historial de Estrellas](#historial-de-estrellas)
 
 ## Lista de proyectos
 
@@ -62,9 +66,9 @@ Integra la API de DeepSeek en softwares populares. Accede a la [Plataforma Abier
         <td>ChatDOC es una herramienta de lectura de documentos basada en IA, equipada con sólidas funciones de trazabilidad, asegurando que la fuente de cada información sea clara y verificable, ayudándote a comprender eficientemente el núcleo de tus documentos.</td>
     </tr>
     <tr>
-        <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icono" width="64" height="auto" /> </td>
-        <td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
-        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> es una aplicación de chat con IA ultrarrápida y multiplataforma construida con React Native. Ofrece rendimiento nativo en Android, iOS, iPad, tabletas Android y macOS. Incluye funciones como chat en tiempo real, soporte enriquecido de Markdown (tablas, bloques de código, LaTeX), generación de imágenes con IA, indicaciones personalizables del sistema y capacidades multimodales. Compatible con múltiples proveedores de IA como DeepSeek, Amazon Bedrock, Ollama y OpenAI, con una interfaz limpia y alto rendimiento.</td>
+<td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icono" width="64" height="auto" /> </td>
+<td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
+<td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> es una aplicación de chat con IA ultrarrápida y multiplataforma construida con React Native. Ofrece rendimiento nativo en Android, iOS, iPad, tabletas Android y macOS. Incluye funciones como chat en tiempo real, soporte enriquecido de Markdown (tablas, bloques de código, LaTeX), generación de imágenes con IA, indicaciones personalizables del sistema, cambio rápido de modelo y capacidades multimodales. Compatible con múltiples proveedores de IA como DeepSeek, Amazon Bedrock, Ollama y modelos compatibles con OpenAI, con una interfaz limpia y alto rendimiento.</td>
     </tr>
     <tr>
         <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icono" width="64" height="auto" /></td>
@@ -389,6 +393,16 @@ Integra la API de DeepSeek en softwares populares. Accede a la [Plataforma Abier
 <td><a href="https://github.com/jiqi136/DS-AI">DeepSeek multiplataforma conectado a la red</a></td>
 <td> Basado en DeepSeek Official, Alibaba Cloud y Douyin Volcano, el motor de IA tricanal impulsa una inteligencia en evolución constante. Además, emplea un modo híbrido de "búsqueda conectada a la red + pensamiento profundo".</td>
 	</tr>
+    <tr>
+    <td><img src="docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto" /></td>
+    <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+    <td>DocKit es un cliente GUI de escritorio potenciado por IA diseñado para bases de datos NoSQL, compatible con Elasticsearch y OpenSearch en Mac, Windows y Linux. Mediante la integración con modelos grandes como DeepSeek, DocKit puede ayudar a los desarrolladores a escribir consultas DSL complejas y proporcionar una mejor experiencia para la gestión y análisis de datos.</td>
+    </tr> 
+    <tr>
+        <td> <img src="docs/zenfeed/assets/icon.png" alt="Icono" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/glidea/zenfeed">zenfeed</a> </td>
+        <td> Potencia RSS con IA, filtra, resume y envía automáticamente información importante para superar la sobrecarga de información. </td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#tabla-de-contenidos">^ Volver al índice ^</a></p>
@@ -456,6 +470,11 @@ Integra la API de DeepSeek en softwares populares. Accede a la [Plataforma Abier
         <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
         <td> BotSharp es un marco de desarrollo de aplicaciones multiagente de código abierto. Desde simples chatbots hasta colaboración multiagente y tareas complejas como el marco "Text To SQL", ofrece métodos listos para usar. Permite integrar rápidamente las capacidades de grandes modelos en sistemas empresariales existentes, y cuenta con funciones integradas de gestión de conocimiento y gestión de conversaciones. El marco ha sido probado exhaustivamente con el modelo DeepSeek V3, y gracias al rendimiento de DeepSeek V3, el marco no tiene nada que envidiar a otros modelos propietarios. </td>
     </tr>
+     <tr>
+            <td width=80> <img src="docs/eino/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+            <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+            <td> Eino (pronounced like "I know") aims to be the best LLM application development framework in the Go language. It draws on the design concept of excellent LLM frameworks in open source communities such as LangChain and LlamaIndex, while absorbing cutting-edge research results and practical application experience, providing a LLM application development framework that is more in line with Go programming conventions, emphasizing simplicity, scalability, reliability and efficiency. </td>
+        </tr>
 </table>
 
 <p style="text-align: right;"><a href="#tabla-de-contenidos">^ Volver al índice ^</a></p>

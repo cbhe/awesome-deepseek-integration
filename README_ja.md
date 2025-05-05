@@ -16,21 +16,24 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
 
 ## 目次
 
-* [アプリケーション](#applications)
-* [AI エージェントフレームワーク](#agent)
-* [AIデータアプリケーション開発フレームワーク](#data)
-* [RAG フレームワーク](#rag)
-* [FHE フレームワーク](#fhe)
-* [Solana フレームワーク](#solana)
-* [合成データのカテゴリ化](#sythetic)
-* [IM アプリケーションプラグイン](#im)
-* [ブラウザ拡張機能](#browser)
-* [VS Code 拡張機能](#vscode)
-* [neovim 拡張機能](#neovim)
-* [JetBrains 拡張機能](#jetbrains)
-* [AI コードエディタ](#codeeditor)
-* [Emacs](#emacs)
-* [その他](#others)
+- [Awesome DeepSeek Integrations ](#awesome-deepseek-integrations-)
+  - [目次](#目次)
+  - [プロジェクト一覧](#プロジェクト一覧)
+    - [アプリケーション](#アプリケーション)
+    - [AI エージェントフレームワーク](#ai-エージェントフレームワーク)
+    - [AIデータアプリケーション開発フレームワーク](#aiデータアプリケーション開発フレームワーク)
+    - [RAG フレームワーク](#rag-フレームワーク)
+    - [FHE フレームワーク](#fhe-フレームワーク)
+    - [Solana フレームワーク](#solana-フレームワーク)
+    - [合成データのカテゴリ化](#合成データのカテゴリ化)
+    - [IM アプリケーションプラグイン](#im-アプリケーションプラグイン)
+    - [ブラウザ拡張機能](#ブラウザ拡張機能)
+    - [VS Code 拡張機能](#vs-code-拡張機能)
+    - [neovim 拡張機能](#neovim-拡張機能)
+    - [JetBrains 拡張機能](#jetbrains-拡張機能)
+    - [AI コードエディタ](#ai-コードエディタ)
+    - [Emacs](#emacs)
+    - [その他](#その他)
 
 ## プロジェクト一覧
 
@@ -59,8 +62,8 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
     </tr>
     <tr>
         <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto" /> </td>
-        <td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
-        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> は React Native で構築された超高速なクロスプラットフォームAIチャットアプリケーションです。Android、iOS、iPad、Androidタブレット、macOSでネイティブなパフォーマンスを提供します。リアルタイムストリーミングチャット、豊富なMarkdownサポート（テーブル、コードブロック、LaTeX）、AI画像生成、カスタマイズ可能なシステムプロンプト、マルチモーダル機能などを備えています。DeepSeek、Amazon Bedrock、Ollama、OpenAIなど複数のAIプロバイダーをサポートし、シンプルなUIデザインと高性能を実現しています。</td>
+<td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
+<td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> は React Native で構築された超高速なクロスプラットフォームAIチャットアプリケーションです。Android、iOS、macOSでネイティブなパフォーマンスを提供します。リアルタイムストリーミングチャット、豊富なMarkdownサポート、AI画像生成、カスタマイズ可能なシステムプロンプト、クイックモデル切り替え、マルチモーダル機能などを備えています。DeepSeek、Amazon Bedrock、Ollama、OpenAI 互換モデルなど複数のAIプロバイダーをサポートし、シンプルなUIと高性能を実現しています。</td>
     </tr>
  <tr>
     <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto" /></td>
@@ -310,7 +313,16 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
     <td><a href="https://www.remio.ai/">remio</a></td>
     <td>remio は AI を活用したパーソナルナレッジハブです。閲覧したウェブコンテンツを自動的に収集し、ローカルファイルを解析し、個人のメモを統合することで、パーソナライズされたナレッジベースを構築します。パーソナルナレッジベース内での検索と自然言語による Q&A を可能にし、即座に洞察を得られるようにします。さらに、あなたのライティングスタイルに適応し、ドラフト作成や改良、コンテンツ完成を簡単に進めるスマートライティング支援も提供します。ローカル優先のストレージ設計により、remio はデータのプライバシーを重視しながら、断片化した情報を一元化し、最大限の生産性を実現します。</td>
     </tr> 
-
+    <tr>
+    <td><img src="docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto" /></td>
+    <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+    <td>DocKitは、NoSQLデータベース向けに設計されたAI搭載のデスクトップGUIクライアントで、Mac、Windows、Linuxに対応したElasticsearchとOpenSearchをサポートしています。DeepSeekのような大規模モデルと統合することで、DocKitは開発者が複雑なDSLクエリを作成するのを支援し、データ管理と分析のためのより良い体験を提供します。</td>
+    </tr>
+    <tr>
+        <td> <img src="docs/zenfeed/assets/icon.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/glidea/zenfeed">zenfeed</a> </td>
+        <td> AIでRSSを強化し、重要な情報を自動的にフィルタリング、要約、プッシュして、情報過多を克服します。 </td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目次">^ 目次に戻る ^</a></p>
@@ -348,6 +360,11 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
         <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
         <td> BotSharpは、オープンソースのマルチエージェントアプリケーション開発フレームワークです。シンプルなチャットボットからマルチエージェントの協調、複雑なタスク（例：Text To SQL）まで、すぐに使える方法を提供し、大規模モデルの能力を既存のビジネスシステムに迅速に統合できます。さらに、ナレッジベースや会話管理機能も内蔵しています。このフレームワークはDeepSeek V3モデルで詳細にテストされており、DeepSeek V3の性能のおかげで、他のクローズドソースモデルに劣らないパフォーマンスを発揮します。</td>
     </tr>
+     <tr>
+        <td width=80> <img src="docs/eino/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+            <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+            <td> Eino (I knowと発音が似ている)は、Go言語で最も優れたLLMアプリケーション開発フレームワークとなることを目指しています。LangChain、LlamaIndexなどのオープンソースコミュニティの優れたLLMフレームワークの設計理念を参考にしながら、最先端の研究成果と実用的な経験を取り入れ、シンプルさ、スケーラビリティ、信頼性、効率性を強調したGo言語プログラミング慣行に準拠したLLMアプリケーション開発フレームワークを提供しています。 </td>
+        </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目次">^ 目次に戻る ^</a></p>
@@ -493,6 +510,11 @@ DeepSeek API を人気のソフトウェアに統合します。API キーを取
         <td> <img src="https://github.com/oinzen/RSSFlow-doc/blob/main/docs/images/en/icon64.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://rssflow.oinchain.com"> RssFlow </a> </td>
         <td>AIを活用したRSS要約と多次元フィードビューを備えたインテリジェントなRSSリーダーブラウザ拡張機能。コンテンツ理解を強化するためのDeepSeekモデル設定をサポートしています。</td>
+    </tr>
+    <tr>
+        <td> <img src="./docs/refinereader/assets/refinereader-128.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://refinereader.cuihuaer.com"> Refine Reader </a> </td>
+        <td> AI（DeepSeek、OpenAI等）を使用して記事を素早く理解し要約するためのChrome拡張機能。 </td>
     </tr>
     <tr>
         <td> <img src="https://raw.githubusercontent.com/Hedwi/deepchat/refs/heads/main/images/logo.svg" alt="Icon" width="64" height="auto" /> </td>

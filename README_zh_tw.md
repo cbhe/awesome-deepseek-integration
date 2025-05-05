@@ -35,7 +35,7 @@
 * [Emacs](#emacs)
 * [安全性](#security)
 * [供應商](#providers)
-* [其他](#others)
+* [其他](#others) 
 
 ## 項目列表
 
@@ -69,8 +69,8 @@
     </tr>
     <tr>
         <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto" /> </td>
-        <td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
-        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> 是一款基於 React Native 構建的跨平台 AI 聊天 App，提供原生效能，適用於 Android、iOS、iPad、Android 平板和 macOS。功能包括即時串流聊天、豐富的 Markdown 支援（表格、程式碼塊、LaTeX）、AI 圖像生成、自訂系統提示和多模態能力。支援多個 AI 提供商，包括 DeepSeek、Amazon Bedrock、Ollama 和 OpenAI，具有簡潔的 UI 和高效能。</td>
+<td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
+<td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> 是一款基於 React Native 構建的閃電般快速的跨平台 AI 聊天應用。它在 Android、iOS 和 macOS 上提供原生性能。功能包括實時流式聊天、豐富的 Markdown 支持、AI 圖像生成、可自定義系統提示、快速模型切換和多模態能力。支持包括 DeepSeek、Amazon Bedrock、Ollama 和 OpenAI 相容模型在內的多個 AI 提供商，具有簡潔的 UI 和高性能。</td>
     </tr>
     </tr>
         <td> <img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto" /></td>
@@ -423,6 +423,16 @@
         <td><a href="https://www.remio.ai/">remio</a></td>
         <td> remio 是一個 AI 驅動的個人知識中心，通過自動捕獲瀏覽的網頁內容、解析本地文件並整合個人筆記，構建個性化的知識庫。它支持在個人知識庫中進行搜索和自然語言問答，以提供即時洞察，同時提供智能寫作輔助——適應您的寫作風格，輕鬆簡化起草、潤色和完成內容的過程。remio 採用本地優先儲存設計，優先保護數據隱私，同時集中管理零散信息，以實現最大化的生產力。</td>
     </tr> 
+    <tr>
+        <td><img src="docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+        <td>DocKit is an AI powered desktop GUI client designed for NoSQL database, support Elasticsearch and OpenSearch across Mac, windows and Linux. By integrating with large models like DeepSeek, DocKit can help developers to write complex DSL queries, and provide a better experience for data management and analysis. </td>
+    </tr> 
+    <tr>
+        <td> <img src="docs/zenfeed/assets/icon.png" alt="圖示" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/glidea/zenfeed">zenfeed</a> </td>
+        <td> 用 AI 賦能 RSS，自動篩選、總結、推送重要資訊，告別資訊過載。 </td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目錄">^ 返回目錄 ^</a></p>
@@ -489,6 +499,11 @@
         <td width=80> <img src="docs/BotSharp/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
         <td> BotSharp 是一個開源的多智慧體應用開發框架，從簡單的聊天機器人，到多智慧體協作，以及複雜的任務如【Text To Sql】框架都提供了開箱即用的使用方法，可以快速地將大模型的能力接入到現有的業務系統中，並且內建知識庫和會話管理功能等，框架使用 DeepSeek V3 的模型進行了詳細的測試，得益於 DeepSeek V3 的性能，框架的表現不輸其他的閉源模型。 </td>
+    </tr>
+     <tr>
+        <td width=80> <img src="docs/eino/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+            <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+            <td> Eino（發音類似"I know"）旨在成為Go語言中最優秀的LLM應用開發框架。它借鑒了LangChain、LlamaIndex等開源社區優秀LLM框架的設計理念，同時吸收了前沿研究成果和實際應用經驗，提供了一個更符合Go語言編程慣例的LLM應用開發框架，強調簡潔性、可擴展性、可靠性和高效性。 </td>
     </tr>
 </table>
 

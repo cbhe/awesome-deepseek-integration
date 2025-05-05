@@ -16,22 +16,25 @@
 
 ## 目录
 
-* [应用程序](#applications)
-* [AI Agent 框架](#agent)
-* [AI数据应用框架](#data)
-* [RAG 框架](#rag)
-* [FHE (全同态加密) frameworks](#fhe)
-* [Solana 框架](#solana)
-* [综合数据管理](#sythetic)
-* [即时通讯插件](#im)
-* [Office插件](#office)
-* [浏览器插件](#browser)
-* [VS Code 插件](#vscode)
-* [neovim 插件](#neovim)
-* [JetBrains 插件](#jetbrains)
-* [AI Code编辑器](#codeeditor)
-* [安全](#security)
-* [其它](#others)
+- [DeepSeek 实用集成 ](#deepseek-实用集成-)
+  - [目录](#目录)
+  - [项目列表](#项目列表)
+    - [应用程序](#应用程序)
+    - [AI Agent 框架](#ai-agent-框架)
+    - [AI数据应用框架](#ai数据应用框架)
+    - [RAG 框架](#rag-框架)
+    - [FHE (全同态加密) frameworks](#fhe-全同态加密-frameworks)
+    - [Solana 框架](#solana-框架)
+    - [综合数据管理](#综合数据管理)
+    - [即时通讯插件](#即时通讯插件)
+    - [Office插件](#office插件)
+    - [浏览器插件](#浏览器插件)
+    - [VS Code 插件](#vs-code-插件)
+    - [neovim 插件](#neovim-插件)
+    - [JetBrains 插件](#jetbrains-插件)
+    - [AI Code编辑器](#ai-code编辑器)
+    - [安全](#安全)
+    - [其它](#其它)
 
 ## 项目列表
 
@@ -70,8 +73,8 @@
     </tr>
     <tr>
         <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto" /> </td>
-        <td> <a href="docs/SwiftChat/README-cn.md">SwiftChat</a></td>
-        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> 是一款使用 React Native 构建的闪电般快速的跨平台 AI 聊天应用。它在 Android、iOS、iPad、Android 平板电脑和 macOS 上提供原生性能。功能包括实时流式聊天、丰富的 Markdown 支持（表格、代码块、LaTeX）、AI 图像生成、可自定义系统提示词和多模态能力。支持包括 DeepSeek、Amazon Bedrock、Ollama 和 OpenAI 在内的多个 AI 提供商。并具有简洁的用户界面和高性能表现。</td>
+        <td> <a href="docs/SwiftChat/README_cn.md">SwiftChat</a></td>
+        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> 是一款使用 React Native 构建的闪电般快速的跨平台 AI 聊天应用。它在 Android、iOS 和 macOS 上提供原生性能。功能包括实时流式聊天、丰富的 Markdown 支持、AI 图像生成、可自定义系统提示、快速切换模型和多模态能力。支持 DeepSeek、Amazon Bedrock、Ollama 和 OpenAI API 兼容的模型，并具有简洁的用户界面和高性能表现。</td>
     </tr>
     <tr>
         <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto" /></td>
@@ -347,6 +350,16 @@
     <td><a href="https://www.remio.ai/">remio</a></td>
     <td>remio 是一个 AI 驱动的个人知识中心，通过自动捕获浏览的网页内容、解析本地文件并整合个人笔记，构建个性化的知识库。它支持在个人知识库中进行搜索和自然语言问答，以提供即时洞察，同时提供智能写作辅助——适应您的写作风格，轻松简化起草、润色和完成内容的过程。remio 采用本地优先存储设计，优先保护数据隐私，同时集中管理零散信息，以实现最大化的生产力。</td>
     </tr> 
+    <tr>
+    <td><img src="docs/DocKit/assets/dockit.png" alt="Icon" width="64" height="auto" /></td>
+    <td><a href="https://dockit.geekfun.club/">DocKit</a></td>
+    <td>DocKit是一個AI驅動的桌面GUI客戶端，專為NoSQL數據庫設計，支持Mac、Windows和Linux上的Elasticsearch和OpenSearch。通過集成DeepSeek等大型模型，DocKit可以幫助開發者編寫複雜的DSL查詢，並為數據管理和分析提供更好的體驗。</td>
+    </tr> 
+    <tr>
+        <td> <img src="docs/zenfeed/assets/icon.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/glidea/zenfeed">zenfeed</a> </td>
+        <td> 用 AI 赋能 RSS，自动筛选、总结、推送重要信息，告别信息过载。 </td>
+    </tr>
 </table>
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
@@ -388,6 +401,12 @@
         <td width=80> <img src="docs/BotSharp/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/SciSharp/BotSharp"> BotSharp </a> </td>
         <td> BotSharp 是一个开源的多智能体应用开发框架，从简单的聊天机器人，再到多智能体协作，以及复杂的任务如【Text To Sql】框架都提供了开箱即用的使用方法，可以快速的将大模型的能力接入到现有的业务系统中，并且内置知识库和会话管理功能等，框架使用DeepSeek V3的模型进行了详细的测试，得益于DeepSeek V3的性能，框架的表现不输其他的闭源的模型。 </td>
+    </tr>
+    <tr>
+        <td width=80> <img src="docs/eino/assets/logo.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/cloudwego/eino"> Eino </a> </td>
+        <td> Eino（发音类似"I know"）旨在成为Go语言中最优秀的LLM应用开发框架。它借鉴了LangChain、LlamaIndex等开源社区优秀LLM框架的设计理念，同时吸收了前沿研究成果和实际应用经验，提供了一个更符合Go语言编程惯例的LLM应用开发框架，强调简洁性、可扩展性、可靠性和高效性。
+        </td>
     </tr>
 </table>
 
@@ -592,6 +611,14 @@
         <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/docky-ai/README_cn.md"> Docky AI </a> </td>
         <td>Docky AI 是一款功能强大的浏览器插件，允许您通过侧边栏与多个 AI 模型进行实时对话。它支持多模型同时交流，并能协助您阅读网页、写作、翻译和创作图片</td>
     </tr>
+    <tr>
+        <td> <img src="./docs/refinereader/assets/refinereader-128.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://refinereader.cuihuaer.com"> Refine Reader </a> </td>
+        <td> 一款基于 AI （DeepSeek、OpenAI等） 的智能阅读助手，致力于帮助用户快速理解和提炼文章精华，支持阅读互动。</td>
+    </tr>
+
+
+
 </table>
 
 <p style="text-align: right;"><a href="#目录">^ 返回目录 ^</a></p>
